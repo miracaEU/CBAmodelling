@@ -1,0 +1,9 @@
+﻿id,hazard,year,EAD,EAEL,length,length_uom,loss_uom
+1,flood,2025,100,200,50,m,€ million
+1,flood,2030,110,210,50,m,€ million
+1,flood,2050,160,220,50,m,€ million
+1,flood,2080,200,230,50,m,€ million
+2,flood,2025,10,20,10,m,€ million
+2,flood,2030,11,21,10,m,€ million
+2,flood,2050,16,22,10,m,€ million
+2,flood,2080,20,23,10,m,€ million

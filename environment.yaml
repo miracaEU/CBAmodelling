@@ -3,6 +3,9 @@ channels:
   - conda-forge
 dependencies:
   - python>=3.11
+  - pip
+  - pip:
+    - -e .  # install local cba package from src/cba
   - shapely>=2.0
   - geopandas
   - jupyter

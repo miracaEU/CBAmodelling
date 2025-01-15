@@ -1,0 +1,17 @@
+﻿id,option,hazard,year,EAD,EAEL,loss_uom
+1,flood wall,flood,2025,40,120,€ million
+1,flood wall,flood,2030,44,130,€ million
+1,flood wall,flood,2050,64,140,€ million
+1,flood wall,flood,2080,80,150,€ million
+1,swales,flood,2025,60,150,€ million
+1,swales,flood,2030,66,160,€ million
+1,swales,flood,2050,96,170,€ million
+1,swales,flood,2080,120,180,€ million
+2,flood wall,flood,2025,4.8,14.4,€ million
+2,flood wall,flood,2030,5.28,15.6,€ million
+2,flood wall,flood,2050,7.68,16.8,€ million
+2,flood wall,flood,2080,9.6,18,€ million
+2,swales,flood,2025,7.2,18,€ million
+2,swales,flood,2030,7.92,19.2,€ million
+2,swales,flood,2050,11.52,20.4,€ million
+2,swales,flood,2080,14.4,21.6,€ million

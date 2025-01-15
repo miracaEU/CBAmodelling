@@ -1,0 +1,7 @@
+﻿parameter,value
+start_year,2025
+end_year,2100
+discount_rate,3
+apply_gdp_timeseries,TRUE
+apply_fixed_gdp_growth,TRUE
+gdp_rate,4
