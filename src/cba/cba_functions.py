@@ -2,11 +2,7 @@
 
 """
 
-import sys
-import os
-
 import pandas as pd
-import itertools
 import numpy as np
 import math
 from scipy.interpolate import interp1d
@@ -15,9 +11,6 @@ import warnings
 pd.options.mode.chained_assignment = None
 warnings.simplefilter(action="ignore", category=FutureWarning)
 warnings.simplefilter(action="ignore", category=pd.errors.PerformanceWarning)
-from tqdm import tqdm
-
-tqdm.pandas()
 
 
 def prod(val):
@@ -162,12 +155,6 @@ def estimate_adaptation_cost_time_series(
         cost_scenario_columns
     ].astype(str)
     scenarios = cost_dataframe[cost_scenario_columns].drop_duplicates(keep="first")
-
-    cost_columns = (
-        [initial_investment_column]
-        + periodic_investment_columns
-        + recurrent_investment_columns
-    )
     cost_time_series = []
     for sc in scenarios.itertuples():
         query_values = []
